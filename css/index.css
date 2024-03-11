@@ -93,6 +93,8 @@
     }
 
     .infinite-bg{
+        display: flex;
+        align-items: center;
         width: auto;
         height: 105vh;
         background: linear-gradient(0, #120c56, #000000);
@@ -107,7 +109,7 @@
         }
     }
 
-    .stars{
+    /* .stars{
         position: relative;
         width: 3px;
         height: 3px;
@@ -153,7 +155,7 @@
         1340px 520px white,
         160px 570px white,
         1050px 600px white;
-    }
+    } */
     
     .contanier{
         display: grid;
@@ -161,7 +163,7 @@
         align-items: center;
         justify-content: center;
         margin: auto;
-        margin-top: 7%;
+        /* margin-top: 7%; */
         width: 1000px;
         height: 500px;
         background: #c9c9c9;
@@ -175,7 +177,8 @@
         margin-left: 31%;
     }
 
-    .login{margin: auto;
+    .login{
+        margin: auto;
         border-radius: 8px;
         width: 300px;
         height: 550px;
